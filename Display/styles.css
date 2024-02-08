@@ -1,0 +1,37 @@
+.cuadrado:nth-of-type(1) {
+    background-color: lightblue;
+    width: 100px; /* Ancho del cuadrado */
+  height: 100px; /* Altura del cuadrado */
+}
+
+.cuadrado:nth-of-type(2) {
+    background-color: lightgreen;
+    display: inline; /* Convertir div en elemento en línea */
+}
+
+.cuadrado:nth-of-type(3) {
+    background-color: lightcoral;
+}
+
+
+p:nth-of-type(1) {
+    background-color: lightyellow;
+    width: 200px; /* Ancho del párrafo */
+    height: 50px; /* Altura del párrafo */
+}
+
+p:nth-of-type(2) {
+    background-color: lightpink;
+    display: inline-block; /* Convertir párrafo en elemento inline-block */
+}
+
+a:nth-of-type(1) {
+    background-color: lightskyblue;
+    width: 120px; /* Ancho del enlace */
+    height: 30px; /* Altura del enlace */
+    display: block; /* Convertir enlace a elemento de bloque */
+}
+
+a:nth-of-type(2) {
+    background-color: lightseagreen;
+}

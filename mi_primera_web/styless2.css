@@ -1,0 +1,119 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+ol,
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+header {
+    display: flex;
+    background-color: rgb(92, 58, 58);
+    align-items: center;
+    justify-content: space-between;
+}
+
+header nav ul {
+    display: flex;
+    gap: 1.1em;
+ }
+
+
+ header a i {
+    color: rgb(232, 217, 241);
+    font-size: 1.5em;
+    padding: 0.5em;
+ }
+
+header nav ul li {
+    color: white;
+ }
+
+ .seccion-1 {
+    background-color: rgb(221, 210, 175);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2em;
+ }
+
+/* Estilos para la sección "Acerca de mi" */
+.acerca-de {
+    width: 40%; /* Establece el ancho del contenedor del texto */
+    float: left; /* Hace que el contenedor flote a la izquierda */
+    padding-right: 20px; /* Espacio entre la imagen y el texto */
+    text-align: right; /* Alinea el texto de izquierda a derecha */
+  }
+
+
+.acerca-imagen {
+    width: 50%; /* Establece el ancho del contenedor de la imagen */
+    float: left; /* Hace que el contenedor flote a la izquierda */
+    max-width: 100%; /* Garantiza que la imagen no exceda su contenedor */
+    height: auto; /* Mantiene la proporción de aspecto de la imagen */
+    text-align: justify;
+  }
+
+section { 
+    display: block;
+}
+
+.seccion-2 img {
+    width: 100%;
+}
+
+.seccion-3 img {
+    width: 40%;
+    border-radius: 10% / 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.imagen-container {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    margin-top: 20px; /* Ajusta el margen superior según sea necesario */
+}
+
+.imagen-e-info-bug{
+    text-align: center;
+    width: 40%;
+    border-radius: 10% / 50%;
+}
+
+
+.imagen-e-info-desarroollo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+p {
+    margin-top: 10px; /* Ajusta el margen superior según sea necesario */
+    font-size: 14px; /* Ajusta el tamaño de fuente según sea necesario */
+    /*justify-content: center;*/
+    align-items: center;
+} 
+
+footer {
+    background-color: rgb(92, 58, 58);
+    width: 100%;
+}
+
+footer {
+    display: block;
+}
+
+footer a {
+    text-decoration: none;
+    color: black;
+ }
