@@ -35,6 +35,11 @@ header nav ul li {
     color: white;
  }
 
+ h2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ }
  .seccion-1 {
     background-color: rgb(221, 210, 175);
     display: flex;
@@ -61,7 +66,7 @@ header nav ul li {
   }
 
 section { 
-    display: block;
+    display: block; /* Hace que la imagen sea un bloque para poder centrarla */
 }
 
 .seccion-2 img {
@@ -81,21 +86,31 @@ section {
     justify-content: space-around;
     width: 100%;
     margin-top: 20px; /* Ajusta el margen superior según sea necesario */
+    text-align: center; /* Centra los elementos horizontalmente */
 }
 
 .imagen-e-info-bug{
-    text-align: center;
+    text-align: center; /* Centra los elementos horizontalmente */
     width: 40%;
     border-radius: 10% / 50%;
+    display: inline-block; /* Permite que los elementos se centren horizontalmente */
 }
 
-
-.imagen-e-info-desarroollo {
+.imagen-e-info-bug img,.imagen-e-info-desarrollo img {
+    width: 200px; /* Establece el ancho deseado para las imágenes */
+    height: auto; /* Mantiene la proporción de la imagen */
+    display: block; /* Hace que la imagen sea un bloque para poder centrarla */
+    margin: 0 auto; /* Centra la imagen horizontalmente dentro de su div */
+  }
+.imagen-e-info-bug img{
+    height: 150px; /* rompe la proporcion de la imagen un poco para que quede alineado */
+  }
+.imagen-e-info-desarrollo {
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: center; 
+    display: inline-block; /* Permite que los elementos se centren horizontalmente */
 }
-
 
 p {
     margin-top: 10px; /* Ajusta el margen superior según sea necesario */
