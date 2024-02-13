@@ -38,8 +38,9 @@ header nav ul li {
  h2{
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: right;
  }
+
  .seccion-1 {
     background-color: rgb(221, 210, 175);
     display: flex;
