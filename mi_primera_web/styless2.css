@@ -17,7 +17,7 @@ header {
     background-color: rgb(92, 58, 58);
     align-items: center;
     justify-content: space-between;
-}
+    }
 
 header nav ul {
     display: flex;
@@ -37,7 +37,7 @@ header nav ul li {
 
  h2{
     display: flex;
-    justify-content: center;
+    justify-content: right;
     align-items: right;
  }
 
@@ -46,6 +46,7 @@ header nav ul li {
     display: flex;
     justify-content: center;
     align-items: center;
+    /*flex-wrap: wrap;*/
     padding: 2em;
  }
 
@@ -64,6 +65,7 @@ header nav ul li {
     max-width: 100%; /* Garantiza que la imagen no exceda su contenedor */
     height: auto; /* Mantiene la proporción de aspecto de la imagen */
     text-align: justify;
+    
   }
 
 section { 
@@ -133,3 +135,16 @@ footer a {
     text-decoration: none;
     color: black;
  }
+
+ 
+/* Estilos para pantallas más pequeñas (hasta 768px) */
+@media (max-width: 767px) {
+    .encabezado {
+    font-size: 20px;
+    background-color: yellowgreen;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+}
+
